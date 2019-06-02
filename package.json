@@ -2,8 +2,8 @@
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
-  "engines":{
-  "node":"8.11.1"
+  "engines": {
+    "node": "8.11.1"
   },
   "scripts": {
     "start": "nodemon ./bin/www"
