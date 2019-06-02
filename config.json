@@ -1,0 +1,14 @@
+{
+    "database": {
+        "server": "serversoft7.database.windows.net",
+        "user": "ninja",
+        "password": "x=Rw4=P_",
+        "database": "SevenSoft",
+        "options": {
+            "encrypt": true
+        }
+    },
+    "security": {
+        "key": "CHAVE_SEGURANCA"
+    }
+}
