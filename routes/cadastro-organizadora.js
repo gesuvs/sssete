@@ -34,7 +34,7 @@ router.post('/nova-organizadora', (req, res, next) => {
         Database.query(`insert into userSeven (nome, usuario, email, senha) values ('${nome}', '${usuario}', '${email}','${senha}' );`).then(resultados => {
             console.log(resultados);
           //  Document.write('Sua organizadora ' + nome + 'foi cadastrada com sucesso!')
-            res.status(200).redirect('https://sevensoft7.azurewebsites.net/');
+            res.status(200).redirect('https://sevendashboard.azurewebsites.net');
 
         })
 
